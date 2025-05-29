@@ -33,7 +33,8 @@ More commands will be shown at the bottom of the terminal once the container is 
 1. Run `docker ps` to find the name of your container.
 2. Run `docker exec -it your_container_name sh` to enter the terminal of your container.
 
-Create a Firebase project on the official site if you don't have one already.
+Create a Firebase project on the official site if you don't have one already. 
+You'll need the gmail account used to create the Firebase project to login via the container terminal.
 
 ### 2. From inside your container:
 
