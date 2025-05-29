@@ -1,10 +1,10 @@
 # Use NodeJs image
-FROM node:slim
+FROM node:20-bullseye-slim
 
 # Install requirements for the emulators
 RUN apt-get update && \
-    apt-get install -y vim chromium openjdk-11-jdk ca-certificates-java && \
-    apt-get install nano && \
+    apt-get install -y openjdk-11-jdk ca-certificates-java && \
+    apt-get install -y nano vim chromium && \
     apt-get clean && \
     update-ca-certificates -f
 

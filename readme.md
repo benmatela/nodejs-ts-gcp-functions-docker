@@ -12,7 +12,13 @@ docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml
 
 `--build`: Rebuilds the image before starting (useful after code changes)
 
-More commands will also be shown at the bottom of the terminal.
+If nothing has changed in your docker files and you've already ran the command above, run the container without building it again:
+
+```bash
+docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up # --build is removed
+```
+
+More commands will also be shown at the bottom of the terminal once the container is running.
 
 ### 1. Using your new container:
 
@@ -25,7 +31,9 @@ More commands will also be shown at the bottom of the terminal.
 #### 1.2 Via Terminal(no Docker Desktop):
 
 1. Run `docker ps` to find the name of your container.
-2. Run `docker exec -it <your_container_name> sh` to enter the terminal of your container.
+2. Run `docker exec -it your_container_name sh` to enter the terminal of your container.
+
+Create a Firebase project on the official site if you don't have one already.
 
 ### 2. From inside your container:
 
