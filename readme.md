@@ -70,7 +70,9 @@ npm run serve
 
 ### 4. Using exported data from Firestore:
 
-- Exported data from Firestore, Storage, Authentication or the Emulators(local Firestore, Storage, Auth) will be saved in your container in `/firebase_data/...`;
+- Imported data from your live Firebase can be saved in `/firebase_data/...`;
+
+- When working with local Firebase Emulators, the data you create will automatically be saved in `/firebase_data/...`;
 
 - Exported data will load everytime you run the serve command.
 
