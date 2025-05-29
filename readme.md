@@ -1,6 +1,6 @@
 # How to run this project with Docker and Docker Compose:
 
-To create our new container, we use `docker-compose`.
+To create our new container, we run `docker-compose` from the root project folder.
 
 ```bash
 docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up --build
