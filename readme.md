@@ -93,9 +93,9 @@ rm -r *
 cd ..
 ```
 
-### 5. Working with files from within your container:
+### 5. Working with files from within your container(OPTIONAL):
 
-- You can use `nano` to edit/create local files eg:(OPTIONAL TO TRY OUT)
+- You can use `nano` to edit/create local files eg:
 
 Use `"cntrl + c"` to stop the terminal then go to the directory/folder you want to work in eg `cd lib`.
 
