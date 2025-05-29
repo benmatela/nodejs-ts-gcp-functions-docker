@@ -18,7 +18,7 @@ docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml
 
 `--build`: Rebuilds the image before starting (useful after code changes)
 
-More commands will also be shown at the bottom of the terminal once the container is running.
+More commands will be shown at the bottom of the terminal once the container is running.
 
 ### 1. Using your new container:
 
