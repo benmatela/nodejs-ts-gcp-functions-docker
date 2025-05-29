@@ -1,0 +1,20 @@
+services:
+  nodejs-ts-gcp-functions-docker:
+    build:
+      context: ../
+      dockerfile: nodejs-ts-gcp-functions-docker-v1-container/Dockerfile
+    tty: true
+    volumes:
+      - ../functions/src:/functions/src
+    expose:
+      - '4000'
+      - '5001'
+      - '8080'
+      - '9199'
+      - '9099'
+    ports:
+      - '4000:4000'
+      - '5001:5001'
+      - '8080:8080'
+      - '9199:9199'
+      - '9099:9099'
