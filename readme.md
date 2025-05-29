@@ -6,17 +6,17 @@ To create our new container, we run `docker-compose` from the root project folde
 docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up --build
 ```
 
+If you've previously ran the command above and nothing has changed in your `Dockerfile` and `docker-compose.yml` files, you can run the container without building it again:
+
+```bash
+docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up # --build is removed
+```
+
 `-f`: Specifies the path to your docker-compose.yml
 
 `up`: Brings up the container
 
 `--build`: Rebuilds the image before starting (useful after code changes)
-
-If nothing has changed in your docker files and you've already ran the command above, run the container without building it again:
-
-```bash
-docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up # --build is removed
-```
 
 More commands will also be shown at the bottom of the terminal once the container is running.
 
