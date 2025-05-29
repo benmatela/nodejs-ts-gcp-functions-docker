@@ -3,7 +3,7 @@ FROM node:slim
 
 # Install requirements for the emulators
 RUN apt-get update && \
-    apt-get install -y vim chromium ca-certificates-java && \
+    apt-get install -y vim chromium openjdk-11-jdk ca-certificates-java && \
     apt-get install nano && \
     apt-get clean && \
     update-ca-certificates -f
