@@ -100,7 +100,11 @@ cd ..
 
 - You can use `nano` to edit/create local files eg:
 
-Use `"cntrl + c"` to stop the terminal then go to the directory/folder you want to work in eg `cd lib`.
+Use `"cntrl + c"` to stop the terminal then go to the directory/folder you want to work in eg:
+
+```bash
+cd lib # Go to "lib" folder
+```
 
 ```bash
 nano .env # Update existing file
