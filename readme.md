@@ -25,7 +25,7 @@ More commands will be shown at the bottom of the terminal once the container is 
 
 #### 1.1 Via Docker Desktop:
 
-1. Enter `v` to open container in Docker Desktop.
+1. Enter `v` on the terminal to open container in Docker Desktop.
 2. Click on your `container` from the container list
 3. Click `exec` to access the terminal.
 
