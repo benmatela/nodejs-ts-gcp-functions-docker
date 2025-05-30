@@ -1,4 +1,5 @@
 # How to run this project with Docker and Docker Compose:
+### Author: Ben Matela
 
 To create our new container, we run `docker-compose` from the root project folder.
 
