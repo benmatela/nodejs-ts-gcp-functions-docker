@@ -110,6 +110,8 @@ cd lib # Go to "lib" folder
 nano .env # Update existing file
 ```
 
+Use `"cntrl + x"` to exit `nano`.
+
 ```bash
 nano my_new_file.txt # Create new file
 ```
