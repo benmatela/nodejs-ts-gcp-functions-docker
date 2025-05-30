@@ -1,16 +1,12 @@
 # How to run this project with Docker and Docker Compose:
 ### Author: Ben Matela
 
+#### NB: You need `Docker Desktop` installed on your machine or you can just install `Docker` and `Docker Compose`.
+
 To create our new container, we run `docker-compose` from the root project folder.
 
 ```bash
 docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up --build
-```
-
-If you've previously ran the command above and nothing has changed in your `Dockerfile` and `docker-compose.yml` files, you can run the container without building it again:
-
-```bash
-docker compose -f nodejs-ts-gcp-functions-docker-v1-container/docker-compose.yml up # --build is removed
 ```
 
 `-f`: Specifies the path to your docker-compose.yml
@@ -86,14 +82,20 @@ cd firebase_data
 
 - Other useful commands:
 
+* Delete all files in the current directory(optional):
+
 ```sh
-# Deletes all files in the current directory
 rm -r *
 ```
 
+* Run project again after deleting files(optional):
+
 ```sh
-# Go back to root folder and continue coding
 cd ..
+```
+
+``` bash
+npm run serve
 ```
 
 ### 5. Working with files from within your container(OPTIONAL):
