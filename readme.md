@@ -87,8 +87,6 @@ npm run serve
 cd firebase_data
 ```
 
-- Other useful commands:
-
 * Delete all files in the current directory(optional):
 
 ```sh
