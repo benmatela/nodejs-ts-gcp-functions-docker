@@ -105,13 +105,13 @@ rm -f filename.txt
 rm -r dirname
 ```
 
-* Delete all files in the current directory(optional):
+* Delete all files in the current directory:
 
 ```sh
 rm -r *
 ```
 
-* Run project again after deleting files(optional):
+* Run project again by going back to the root directory(where the files required to run the project are located):
 
 ```sh
 cd ..
