@@ -4,8 +4,8 @@
       "collectionGroup": "posts",
       "queryScope": "COLLECTION",
       "fields": [
-        { "fieldPath": "currentStep", "order": "ASCENDING" },
-        { "fieldPath": "createdAt", "order": "DESCENDING" }
+        { "fieldPath": "title", "order": "ASCENDING" },
+        { "fieldPath": "author", "order": "DESCENDING" }
       ]
     }
   ]
