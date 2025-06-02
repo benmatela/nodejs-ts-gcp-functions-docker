@@ -87,6 +87,24 @@ npm run serve
 cd firebase_data
 ```
 
+* Delete a single file:
+
+```bash
+rm filename.txt 
+```
+
+Force Delete:
+
+```bash
+rm -f filename.txt
+```
+
+* Remove directory and it's content:
+
+```bash
+rm -r dirname
+```
+
 * Delete all files in the current directory(optional):
 
 ```sh
