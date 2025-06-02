@@ -7,6 +7,7 @@ Clone project:
 
 ```bash
 git clone https://github.com/benmatela/nodejs-ts-gcp-functions-docker.git
+cd nodejs-ts-gcp-functions-docker
 ```
 
 To create our new container, we run `docker-compose` from the root project folder.
