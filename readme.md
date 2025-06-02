@@ -3,6 +3,12 @@
 
 #### NB: You need `Docker Desktop` installed on your machine or you can just install `Docker` and `Docker Compose`.
 
+Clone project:
+
+```bash
+git clone https://github.com/benmatela/nodejs-ts-gcp-functions-docker.git
+```
+
 To create our new container, we run `docker-compose` from the root project folder.
 
 ```bash
